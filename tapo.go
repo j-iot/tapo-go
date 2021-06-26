@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-const Timeout = time.Second * 15
+const Timeout = time.Second * 2
 
 type Status struct {
 	ErrorCode int `json:"error_code"`
